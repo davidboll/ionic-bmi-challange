@@ -78,4 +78,9 @@ export class MapPage {
     });
   }
 
+    focusMap(place) {
+      let position = new google.maps.LatLng(place['lat'], place['lng']);
+      this.map.setCenter(position);
+      this.map.setZoom(15);
+    }
 }

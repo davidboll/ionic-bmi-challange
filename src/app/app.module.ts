@@ -4,6 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
+import { MapPage } from '../pages/map/map';
 import { CalculatorPage } from '../pages/calculator/calculator';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -15,6 +16,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     CalculatorPage,
+    MapPage,
     TabsPage
   ],
   imports: [
@@ -26,6 +28,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     CalculatorPage,
+    MapPage,
     TabsPage
   ],
   providers: [
